@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import { Component } from 'react';
+import styled from "styled-components";
 import './App.css';
+import { Home_content, About_content } from './component/Background';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// import js file
+import Header from './component/Header';
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div className="wrap">
+        <Header></Header>
+        <Home_content></Home_content>
+        <About_content></About_content>
+      </div>
+    );
+  }
 }
+
 
 export default App;
