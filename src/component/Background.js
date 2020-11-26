@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import styled from "styled-components";
 import Homepage from './Home';
-// import Aboutpage from './About';
+import Aboutpage from './About';
+import Portfoliopage from './Portfolio';
 
 const Home_content = class Home extends Component {
   render() {
@@ -23,10 +24,24 @@ const About_content = class About extends Component {
       <Container2>
         <ContentBox>
           <div className="center">
-            {/* <Aboutpage /> */}
+            <Aboutpage />
           </div>
         </ContentBox>
       </Container2>
+    )
+  };
+}
+
+const Portfolio_content = class Portfolio extends Component {
+  render() {
+    return (
+      <Container3>
+        <ContentBox>
+          <div className="center">
+            <Portfoliopage />
+          </div>
+        </ContentBox>
+      </Container3>
     )
   };
 }
@@ -42,7 +57,7 @@ const ContentBox = styled.div`
 const Container = styled.div`
   width:100%;
   position:relative;
-  background:#222;
+  background:#181818;
   height:800px;
 `;
 
@@ -51,8 +66,16 @@ const Container2 = styled.div`
   position:relative;
   background:#aaa;
   height:500px;
-  background-size:cover;
+  background:#282828;
+`;
+
+const Container3 = styled.div`
+  width:100%;
+  position:relative;
+  background:#aaa;
+  height:800px;
+  background:#181818;
 `;
 
 // export default Homepage;
-export { Home_content, About_content };
+export { Home_content, About_content, Portfolio_content };

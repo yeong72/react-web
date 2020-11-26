@@ -1,6 +1,6 @@
 /* font import */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); 
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600;700&display=swap');
 
 body {
   margin: 0;
@@ -9,17 +9,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 /* general style */
 *{padding:0; margin:0;}
 .center{width:60%; margin:auto; position:relative; height:100%;}
 ul,ol{list-style:none;}
 a{text-decoration:none; color:#303030;}
 
+/* header section */
 header{background:#202020; width:100%; height:80px; position:fixed; overflow:hidden; top:0; z-index:1;}
 header ul li{float:left; line-height:80px; margin:0 20px; font-weight:600;}
 header ul li a{color:#fff; font-size:0.8rem;}
@@ -28,4 +24,11 @@ header p{font-size:1.5rem; font-style:italic; font-family:'Roboto';}
 header span{color:gold;}
 header img{width:150px; height:150px;}
 
+/* Home section */
 .Contents img{width:620px; position:absolute; bottom:0;}
+
+/* About section */
+.about_con img{width:427px;}
+
+
+

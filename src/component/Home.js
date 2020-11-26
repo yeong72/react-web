@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import styled from "styled-components";
-import Mainimg1 from '../img/main_img.png'
+import Homeimg from '../img/main_img.png'
 
 class Homepage extends Component {
   render() {
@@ -12,7 +12,7 @@ class Homepage extends Component {
           <Button href="#">Intro Me</Button>
         </Txtbox>
         <Imgbox>
-          <img src={Mainimg1}></img>
+          <img src={Homeimg}></img>
         </Imgbox>
       </Container>
     )
@@ -59,6 +59,12 @@ const Button = styled.a`
   color:#fff;
   font-weight:500;
   font-size:1.2rem;
+  transition:all 0.4s;
+  border:2px solid #feb633;
+  &:hover{
+    background:#101010;
+    color:#feb633;
+  }
 `;
 
 export default Homepage;

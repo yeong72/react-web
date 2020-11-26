@@ -5,7 +5,7 @@ class Menu extends Component {
 
   render() {
 
-    const names = ['Home', 'About', 'Detail', 'Contact'];
+    const names = ['Home', 'About', 'Portfolio', 'Contact'];
     const listItems = names.map((name, index) => <li key={index}><a href="#">{name}</a></li>);
     return (
       <Container>

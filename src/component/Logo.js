@@ -6,7 +6,6 @@ class Logo extends Component {
   render() {
     return (
       <Container>
-        {/* <p>Rea<span>ct</span></p> */}
         <img src={logo} alt={"logo"}></img>
       </Container>
     )
