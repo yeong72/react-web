@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import styled from "styled-components";
 import './App.css';
 import { Home_content, About_content, Portfolio_content } from './component/Background';
 

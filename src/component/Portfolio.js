@@ -26,18 +26,19 @@ const Container = styled.div`
 
 const Txtbox = styled.div`
   width:100%;
-  height:150px;
+  height:120px;
   text-align:center;
   padding-top:50px;
 `;
 
 const Title = styled.h1`
-  font-size:3rem;
+  font-size:2rem;
   color:#eee;
+  padding-bottom:20px;                                                                 
 `;
 
 const Dec = styled.p`
-  font-size:1rem;
+  font-size:0.8rem;
   color:#999;
   
 `;

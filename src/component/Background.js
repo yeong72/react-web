@@ -73,7 +73,7 @@ const Container3 = styled.div`
   width:100%;
   position:relative;
   background:#aaa;
-  height:800px;
+  height:850px;
   background:#181818;
 `;
 
