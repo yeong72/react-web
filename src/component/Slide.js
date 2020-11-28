@@ -45,7 +45,7 @@ class Slidebox extends Component {
           <div className="slides remian">
             <img src={Remianimg}></img>
             <h2>Remian</h2>
-            <p>하드 코딩으로만 구현한 반응형 웹사이트 & 서브페이지</p>
+            <p>하드 코딩으로 구현한 반응형 웹사이트 & 서브페이지</p>
             <a href="#" class="link">View </a>
           </div>
           <div className="slides Ktr">

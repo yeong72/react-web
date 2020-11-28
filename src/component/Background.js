@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Homepage from './Home';
 import Aboutpage from './About';
 import Portfoliopage from './Portfolio';
+import Contactpage from './Contact';
 
 const Home_content = class Home extends Component {
   render() {
@@ -46,6 +47,20 @@ const Portfolio_content = class Portfolio extends Component {
   };
 }
 
+const Contact_content = class Contact extends Component {
+  render() {
+    return (
+      <Container4>
+        <ContentBox>
+          <div className="center">
+            <Contactpage />
+          </div>
+        </ContentBox>
+      </Container4>
+    )
+  };
+}
+
 const ContentBox = styled.div`
   width:100%;
   height:100%;
@@ -77,5 +92,13 @@ const Container3 = styled.div`
   background:#181818;
 `;
 
+const Container4 = styled.div`
+  width:100%;
+  position:relative;
+  background:#aaa;
+  height:500px;
+  background:#282828;
+`;
+
 // export default Homepage;
-export { Home_content, About_content, Portfolio_content };
+export { Home_content, About_content, Portfolio_content, Contact_content };

@@ -36,8 +36,8 @@ header img{width:150px; height:150px;}
 .slides img{height:440px; position:relative; left:50%; transform:translateX(-50%);}
 .slides h2{color:#feb633; font-size:1.4rem;}
 .slides p{color:#bbb; font-size:0.8rem; padding:15px;}
-.slides a{border:1px solid #feb633; border-radius:5px; box-sizing:border-box; padding:0.4rem 3rem; display:inline-block; font-size:1.2rem; color:#feb633; transition:all 0.4s;}
-.slides a:hover{color:#fff; background:#feb633;}
+.slides a{border:1px solid #feb633; border-radius:5px; box-sizing:border-box; padding:0.4rem 3rem; display:inline-block; font-size:1.2rem; color:#fff; transition:all 0.4s; background:#feb633;}
+.slides a:hover{color:#feb633; background:#101010;}
 
 .slick-prev, .slick-next{width:40px; height:40px;}
 .slick-prev:before, .slick-next:before{font-size:44px; transition:all 0.4s;}
