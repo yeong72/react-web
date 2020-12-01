@@ -8,7 +8,7 @@ import Contactpage from './Contact';
 const Home_content = class Home extends Component {
   render() {
     return (
-      <Container>
+      <Container id="home">
         <ContentBox>
           <div className="center">
             <Homepage />
@@ -22,7 +22,7 @@ const Home_content = class Home extends Component {
 const About_content = class About extends Component {
   render() {
     return (
-      <Container2>
+      <Container2 id="about">
         <ContentBox>
           <div className="center">
             <Aboutpage />
@@ -36,7 +36,7 @@ const About_content = class About extends Component {
 const Portfolio_content = class Portfolio extends Component {
   render() {
     return (
-      <Container3>
+      <Container3 id="portfolio">
         <ContentBox>
           <div className="center">
             <Portfoliopage />
@@ -50,7 +50,7 @@ const Portfolio_content = class Portfolio extends Component {
 const Contact_content = class Contact extends Component {
   render() {
     return (
-      <Container4>
+      <Container4 id="contact">
         <ContentBox>
           <div className="center">
             <Contactpage />
@@ -69,30 +69,42 @@ const ContentBox = styled.div`
   transform:translateY(-50%);
 `;
 
-const Container = styled.div`
+const Container = styled.section`
   width:100%;
   position:relative;
   background:#181818;
   height:800px;
+  @media screen and (max-width:1200px){
+    height:660px;
+  }
+  @media screen and (max-width:700px){
+    height:800px;
+  }
 `;
 
-const Container2 = styled.div`
+const Container2 = styled.section`
   width:100%;
   position:relative;
   background:#aaa;
   height:500px;
   background:#282828;
+  @media screen and (max-width:700px){
+  height:500px;
+  }
 `;
 
-const Container3 = styled.div`
+const Container3 = styled.section`
   width:100%;
   position:relative;
   background:#aaa;
   height:850px;
   background:#181818;
+  @media screen and (max-width:700px){
+  height:800px;
+  }
 `;
 
-const Container4 = styled.div`
+const Container4 = styled.section`
   width:100%;
   position:relative;
   background:#aaa;

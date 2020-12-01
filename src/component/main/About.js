@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from "styled-components";
-import Aboutimg from '../img/about.png'
+import Aboutimg from '../../img/about.png'
 
 class Aboutpage extends Component {
   render() {
@@ -35,6 +35,11 @@ const Imgbox = styled.div`
   top:50%;
   transform:translateY(-50%);
   left:0;
+  @media screen and (max-width:700px){
+    width:100%;
+    top:5%;
+    transform:none;
+  }
 `;
 
 const Title = styled.h1`
@@ -45,6 +50,20 @@ const Title = styled.h1`
   border-bottom:4px solid #feb633;
   padding-bottom:0.3rem;
   color:#eee;
+  @media screen and (max-width:1480px){
+    font-size:2.2rem;
+  }
+  @media screen and (max-width:1200px){
+    font-size:1.8rem;
+  }
+  @media screen and (max-width:900px){
+    left:20%;
+  }
+  @media screen and (max-width:700px){
+    left:50%;
+    top:30%;
+    transform:translate(-50%,-50%);
+  }
 `;
 
 const Txtbox = styled.div`
@@ -54,6 +73,11 @@ const Txtbox = styled.div`
   transform:translateY(-50%);
   text-align:left;
   float:right;
+  @media screen and (max-width:700px){
+    width:100%;
+    top:60%;
+    float:none;
+  }
 `;
 
 const Dec1 = styled.div`
@@ -63,6 +87,9 @@ const Dec1 = styled.div`
   font-weight:500;
   font-family: 'Noto Serif KR', serif;
   font-weight:500;
+  @media screen and (max-width:1480px){
+    font-size:0.8rem;
+  }
 `;
 
 const Dec2 = styled.div`
@@ -71,6 +98,9 @@ const Dec2 = styled.div`
   padding-bottom:2rem;
   font-family: 'Noto Serif KR', serif;
   font-weight:500;
+  @media screen and (max-width:1480px){
+    font-size:0.8rem;
+  }
 `;
 
 const Button = styled.a`
@@ -86,6 +116,10 @@ const Button = styled.a`
   &:hover{
     background:#101010;
     color:#feb633;
+  }
+  @media screen and (max-width:1480px){
+    padding:0.6rem 2.5rem;
+    font-size:1.0rem;
   }
 `;
 

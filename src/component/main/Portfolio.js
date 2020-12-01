@@ -29,6 +29,9 @@ const Txtbox = styled.div`
   height:120px;
   text-align:center;
   padding-top:50px;
+  @media screen and (max-width:700px){
+    height:100px;
+  }
 `;
 
 const Title = styled.h1`

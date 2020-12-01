@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from "styled-components";
-import logo from '../img/logo.png' // relative path to image 
+import logo from '../../img/logo.png' // relative path to image 
 
 class Logo extends Component {
   render() {
