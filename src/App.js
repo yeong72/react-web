@@ -1,9 +1,11 @@
 import { Component } from 'react';
+import { browserHistory, Router, Route } from 'react-router';
 
-// import js file
-import Header from './component/header/Header';
+// import dom
+
 
 // Content file
+import Header from './component/header/Header';
 import Mainpage from './component/main/Main';
 import Intropage from './component/intro/Intro';
 
@@ -15,8 +17,8 @@ class App extends Component {
     return (
       <div className="wrap">
         <Header></Header>
-        <Mainpage></Mainpage>
-        <Intropage></Intropage>
+        <Route exact path="/" component={Mainpage} />
+        <Route path="/Intro" component={Intropage} />
       </div>
     );
   }

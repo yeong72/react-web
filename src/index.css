@@ -50,8 +50,15 @@ header img{width:150px; height:150px;}
 .contact_con ul li{padding:0.5rem 0;}
 .contact_con ul li span{padding:0 0.5rem;}
 
+/* ------------------- Intro page style css ------------------------- */
 
-/* media query style */
+.profile_con img{width:100%;}
+
+/* Skill page  */
+.skill_icon{font-size:4rem;}
+
+
+/* ------------------- media query style css -----------------------*/
 @media screen and (max-width:1200px){
   .center{width:70%;}
   #home .Contents img{width:520px;}
@@ -74,4 +81,6 @@ header img{width:150px; height:150px;}
   .slides a{margin-top:1rem;}
   #portfolio .Contents img{width:460px; height:356px;}
 }
+
+
 
