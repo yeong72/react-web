@@ -56,8 +56,23 @@ header img{width:150px; height:150px;}
 
 /* Skill page  */
 .skill_icon{font-size:4rem;}
+.profile_con .card img{width:80px;}
 
+.html_con{background-image:url(../src/img/skill/html_bg.jpg);}
+.html_con .html_bg{background-image:linear-gradient(-48deg,rgb(36,226,254)0%,rgb(36,176,254)54%,rgb(35,126,253)100%);}
+.css_con{background-image:url(../src/img/skill/css_bg.jpg);}
+.css_con .css_bg{background-image:linear-gradient(-48deg,rgb(255,211,36)0%,rgba(254,187,36,0.99)54%,rgba(253,163,35,0.99)100%);}
+.js_con{background-image:url(../src/img/skill/js_bg.jpg);}
+.js_con .js_bg{background-image:linear-gradient(-48deg,rgba(248,47,160,0.99)0%,rgba(214,54,208,0.99)54%,rgba(180,61,255,0.99)100%);}
+.php_con{background-image:url(../src/img/skill/php_bg.png);}
+.php_con .php_bg{background-image:linear-gradient(-48deg,rgba(0,188,128,0.99)0%,rgba(2,204,71,0.99)54%,rgba(3,220,13,0.99)100%);}
+.react_con{background-image:url(../src/img/skill/html_bg.jpg);}
+.react_con .react_bg{background-image:linear-gradient(-48deg,rgb(36,56,254)0%,rgb(86,206,254)54%,rgb(88,156,253)100%);}
+.os_con{background-image:url(../src/img/skill/css_bg.jpg);}
+.os_con .os_bg{background-image:linear-gradient(-48deg,rgb(255,225,36)0%,rgba(254,187,236,0.99)54%,rgba(253,163,135,0.99)100%);}
 
+.card .left{margin:1% 1% 1% 0;}
+.card .right{margin:1% 0 1% 1%;}
 /* ------------------- media query style css -----------------------*/
 @media screen and (max-width:1200px){
   .center{width:70%;}

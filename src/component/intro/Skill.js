@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import styled from "styled-components";
 import Skillcard from './Card';
+import Career from './Career';
 
 class Skillpage extends Component {
   render() {
     return (
       <Container className="profile_con">
-
         <Txtbox>
           <Title>Skill</Title>
           <Dec>제가 할 수 있는 기술들 입니다.</Dec>
@@ -14,6 +14,9 @@ class Skillpage extends Component {
         <Skillbox>
           <Skillcard />
         </Skillbox>
+        <Careerbox>
+          <Career />
+        </Careerbox>
       </Container>
     )
   }
@@ -50,5 +53,8 @@ const Skillbox = styled.div`
 
 `;
 
+const Careerbox = styled.div`
+
+`;
 
 export default Skillpage;
