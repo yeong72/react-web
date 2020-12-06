@@ -11,7 +11,7 @@ class Skillcard extends Component {
 
   render() {
     return (
-      <Skillwrap className="card">
+      <Skillwrap className="card clear">
         <Container className="html_con left">
           <Background className="html_bg">
             <FontAwesomeIcon icon={faHtml5} className="skill_icon" />

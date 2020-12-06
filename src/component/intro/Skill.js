@@ -24,8 +24,7 @@ class Skillpage extends Component {
 
 const Container = styled.div`
   width:100%;
-  height:800px;
-  background:#eee;
+  height:auto;
   box-sizing:border-box;
   padding-top:50px;
 `;
@@ -33,7 +32,6 @@ const Container = styled.div`
 const Txtbox = styled.div`
   width:100%;
   height:150px;
-  background:#aaa;
   text-align:center;
 `;
 
@@ -42,6 +40,7 @@ const Title = styled.h2`
   color:#fff;
   border-bottom:3px solid #feb633;
   display:inline-block;
+  font-weight:500;
 `;
 
 const Dec = styled.p`

@@ -37,7 +37,8 @@ const Txtbox = styled.div`
 const Title = styled.h1`
   font-size:2rem;
   color:#eee;
-  padding-bottom:20px;                                                                 
+  padding-bottom:20px;
+  
 `;
 
 const Dec = styled.p`

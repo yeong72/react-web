@@ -23,8 +23,7 @@ class Profilepage extends Component {
 
 const Container = styled.div`
   width:100%;
-  height:600px;
-  background:#aaa;
+  height:500px;
   padding-top:80px;
   box-sizing:border-box;
   position:relative;
@@ -33,7 +32,7 @@ const Container = styled.div`
 const Imgbox = styled.div`
   width:45%;
   position:relative;
-  top:40%;
+  top:50%;
   transform:translateY(-50%);
   float:left;
   height:300px;
@@ -49,11 +48,12 @@ const Txtbox = styled.div`
   width:55%;
   height:300px;
   position:relative;
-  top:60%;
+  top:50%;
   transform:translateY(-50%);
   text-align:left;
   float:right;
-  background:#ccc;
+  box-sizing:border-box;
+  padding-top:50px;
   @media screen and (max-width:700px){
     width:100%;
     top:60%;
@@ -67,6 +67,7 @@ const Title = styled.h1`
   color:#eee;
   box-sizing:border-box;
   padding:2rem;
+  font-weight:600;
   @media screen and (max-width:1480px){
     font-size:2.2rem;
   }

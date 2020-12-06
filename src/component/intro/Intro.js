@@ -19,7 +19,7 @@ class Intropage extends Component {
 
 const Container = styled.div`
   width:100%;
-  height:2000px;
+  height:auto;
   background:#303030;
 `;
 
