@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { browserHistory, Router, Route } from 'react-router';
+import { Route } from 'react-router';
 
 // import dom
 
@@ -8,6 +8,7 @@ import { browserHistory, Router, Route } from 'react-router';
 import Header from './component/header/Header';
 import Mainpage from './component/main/Main';
 import Intropage from './component/intro/Intro';
+import Detailpage from './component/detail/Detail';
 
 class App extends Component {
   constructor(props) {
@@ -19,6 +20,7 @@ class App extends Component {
         <Header></Header>
         <Route exact path="/" component={Mainpage} />
         <Route path="/Intro" component={Intropage} />
+        <Route path="/Detail" component={Detailpage} />
       </div>
     );
   }
@@ -29,34 +31,6 @@ document.addEventListener('scroll', function () {
 
   var _header = document.querySelector("header");
   var ScrollTop = window.scrollY || document.documentElement.scrollTop;
-  // // var sections = document.querySelectorAll("section");
-  // var nav = document.querySelector(".nav");
-  // var navlist = nav.querySelectorAll("li");
-
-  // var _home = document.querySelector("#home");
-  // var _about = document.querySelector("#about");
-  // var _portfolio = document.querySelector("#portfolio");
-  // var _contact = document.querySelector("#contact");
-
-  // var homeHeight = _home.offsetHeight;
-  // var aboutHeight = _about.offsetHeight;
-  // var portfolioHeight = _portfolio.offsetHeight;
-  // var contactHeight = _contact.offsetHeight;
-
-  // var homeOffsetTop = _home.offsetTop;
-  // var aboutOffsetTop = _about.offsetTop;
-  // var portfolioOffsetTop = _portfolio.offsetTop;
-  // var contactOffsetTop = _contact.offsetTop;
-
-  // var top = this.offsetTop;
-  // var bottom = top + this.offsetHeight();
-
-
-  // if (ScrollTop >= 0 && ScrollTop < aboutOffsetTop) {
-  //   navlist.classList.remove('on');
-  //   navlist[0].classList.add("on");
-  // }
-
 
   // header effect
   {

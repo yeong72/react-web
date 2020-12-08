@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link, Route, BrowserRouter as Router } from "react-router-dom"
 import styled from "styled-components";
+import { NavLink } from 'react-router-dom';
 
 class Menu extends Component {
 
@@ -11,15 +12,12 @@ class Menu extends Component {
 
     return (
       <Container className="nav">
-        {/* <li><a>{names[0]}</a></li>
-        <li><a>{names[1]}</a></li>
-        <li><a>{names[2]}</a></li>
-        <li><a>{names[3]}</a></li>
-         */}
-        <Link to="/"><li onClick={linkClick()}><a>{names[0]}</a></li></Link>
-        <Link to="/Intro"><li><a>{names[1]}</a></li></Link>
-        <li><a>{names[2]}</a></li>
-        <li><a>{names[3]}</a></li>
+        {/* <li><Link to="/" className="link">{names[0]}</Link></li>
+        <li><Link to="/Intro" className="link">{names[1]}</Link></li>
+        <li><Link to="/Detail" className="link">{names[2]}</Link></li> */}
+        <li><NavLink exact to="/" activeClassName="nav_on">{names[0]}</NavLink></li>
+        <li><NavLink to="/Intro" activeClassName="nav_on">{names[1]}</NavLink></li>
+        <li><NavLink to="/Detail" activeClassName="nav_on">{names[2]}</NavLink></li>
       </Container>
     )
   };
@@ -30,9 +28,5 @@ const Container = styled.ul`
 `;
 
 // script code
-
-function linkClick() {
-  console.log("click");
-}
 
 export default Menu;
