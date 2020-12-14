@@ -72,6 +72,9 @@ const Form = styled.div`
   padding:2rem;
   box-sizing:border-box;
   color:#feb633;
+  @media screen and (max-width:550px){
+    height:150px;
+  }
 `;
 
 const Copyright = styled.div`

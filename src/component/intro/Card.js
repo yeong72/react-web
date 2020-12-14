@@ -88,6 +88,10 @@ const Container = styled.div`
   text-align:center;
   border-radius:20px;
   overflow:hidden;
+  @media screen and (max-width:700px){
+    width:100%;
+    height:280px;
+  }
 `;
 
 const Background = styled.div`

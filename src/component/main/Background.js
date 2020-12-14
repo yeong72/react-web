@@ -100,7 +100,7 @@ const Container3 = styled.section`
   height:850px;
   background:#181818;
   @media screen and (max-width:700px){
-  height:800px;
+  height:720px;
   }
 `;
 
@@ -110,6 +110,9 @@ const Container4 = styled.section`
   background:#aaa;
   height:500px;
   background:#282828;
+  @media screen and (max-width:550px){
+    height:450px;
+  }
 `;
 
 // export default Homepage;

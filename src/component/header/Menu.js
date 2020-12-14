@@ -12,9 +12,6 @@ class Menu extends Component {
 
     return (
       <Container className="nav">
-        {/* <li><Link to="/" className="link">{names[0]}</Link></li>
-        <li><Link to="/Intro" className="link">{names[1]}</Link></li>
-        <li><Link to="/Detail" className="link">{names[2]}</Link></li> */}
         <li><NavLink exact to="/" activeClassName="nav_on">{names[0]}</NavLink></li>
         <li><NavLink to="/Intro" activeClassName="nav_on">{names[1]}</NavLink></li>
         <li><NavLink to="/Detail" activeClassName="nav_on">{names[2]}</NavLink></li>

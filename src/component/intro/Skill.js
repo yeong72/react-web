@@ -41,6 +41,9 @@ const Title = styled.h2`
   border-bottom:3px solid #feb633;
   display:inline-block;
   font-weight:500;
+  @media screen and (max-width:700px){
+    font-size:2rem;
+  }
 `;
 
 const Dec = styled.p`

@@ -27,6 +27,14 @@ const Container = styled.div`
   padding-top:80px;
   box-sizing:border-box;
   position:relative;
+  @media screen and (max-width:1480px){
+    height:450px;
+    
+  }
+  @media screen and (max-width:1100px){
+    height:350px;
+    padding-top:100px;
+  }
 `;
 
 const Imgbox = styled.div`
@@ -37,10 +45,15 @@ const Imgbox = styled.div`
   float:left;
   height:300px;
   overflow:hidden;
+  @media screen and (max-width:1100px){
+    height:210px;
+  }
+
   @media screen and (max-width:700px){
     width:100%;
     top:5%;
     transform:none;
+    height:260px;
   }
 `;
 
@@ -54,6 +67,14 @@ const Txtbox = styled.div`
   float:right;
   box-sizing:border-box;
   padding-top:50px;
+  @media screen and (max-width:1400px){
+    padding-top:30px;
+  }
+  
+  @media screen and (max-width:1100px){
+    height:210px;
+  }
+
   @media screen and (max-width:700px){
     width:100%;
     top:60%;
@@ -69,10 +90,19 @@ const Title = styled.h1`
   padding:2rem;
   font-weight:600;
   @media screen and (max-width:1480px){
-    font-size:2.2rem;
+    font-size:1.6rem;
   }
   @media screen and (max-width:1200px){
-    font-size:1.8rem;
+    font-size:1.3rem;
+  }
+  @media screen and (max-width:900px){
+    font-size:1rem;
+  }
+  @media screen and (max-width:700px){
+    font-size:0.8rem;
+    color:#feb633;
+    letter-spacing:0.2rem;
+    line-height:1.6;
   }
 `;
 

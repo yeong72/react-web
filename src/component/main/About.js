@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import styled from "styled-components";
 import Aboutimg from '../../img/about.png'
 
@@ -17,7 +18,7 @@ class Aboutpage extends Component {
           <Dec2>
             HTML5, CSS3, JS, Jquery 를 다루며 웹 표준 및 접근성을 준수한 코딩을 지향하며 반응형 웹을 선호합니다. 백 엔드 언어는 PHP 를 사용한 경험이 있으며 현재 개인적으로 React 를 공부하고 있습니다.
           </Dec2>
-          <Button href="#">More View</Button>
+          <NavLink to="Intro" className="aboutlink">More View</NavLink>
         </Txtbox>
       </Container>
     )
@@ -103,24 +104,24 @@ const Dec2 = styled.div`
   }
 `;
 
-const Button = styled.a`
-  background:#feb633;
-  border-radius:5px;
-  padding:0.8rem 3rem;
-  display:inline-block;
-  color:#fff;
-  font-weight:500;
-  font-size:1.2rem;
-  transition:all 0.4s;
-  border:2px solid #feb633;
-  &:hover{
-    background:#101010;
-    color:#feb633;
-  }
-  @media screen and (max-width:1480px){
-    padding:0.6rem 2.5rem;
-    font-size:1.0rem;
-  }
-`;
+// const Button = styled.a`
+//   background:#feb633;
+//   border-radius:5px;
+//   padding:0.8rem 3rem;
+//   display:inline-block;
+//   color:#fff;
+//   font-weight:500;
+//   font-size:1.2rem;
+//   transition:all 0.4s;
+//   border:2px solid #feb633;
+//   &:hover{
+//     background:#101010;
+//     color:#feb633;
+//   }
+//   @media screen and (max-width:1480px){
+//     padding:0.6rem 2.5rem;
+//     font-size:1.0rem;
+//   }
+// `;
 
 export default Aboutpage;

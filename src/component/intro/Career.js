@@ -50,6 +50,9 @@ const Title = styled.h2`
   border-bottom:3px solid #feb633;
   display:inline-block;
   font-weight:500;
+  @media screen and (max-width:700px){
+    font-size:2rem;
+  }
 `;
 
 const Dec = styled.p`
@@ -68,11 +71,17 @@ const Main = styled.h3`
   font-weight:600;
   font-size:1.1rem;
   color:#feb633;
+  @media screen and (max-width:700px){
+    font-size:1rem;
+  }
 `;
 
 const Keywords = styled.p`
   color:#ddd;
   padding:0.5rem;
+  @media screen and (max-width:700px){
+    font-size:0.9rem;
+  }
 `;
 
 const Sub = styled.p`
@@ -80,6 +89,10 @@ const Sub = styled.p`
   color:#bbb;
   position:relative;
   :before{content:''; display:block; width:8px; height:1px; position:absolute; left:0; top:50%; background:#999;}
+  @media screen and (max-width:700px){
+    font-size:0.8rem;
+  }
 `;
+
 
 export default Career;
