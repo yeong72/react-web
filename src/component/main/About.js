@@ -65,6 +65,9 @@ const Title = styled.h1`
     top:30%;
     transform:translate(-50%,-50%);
   }
+  @media screen and (max-width:400px){
+    font-size:1.5rem;
+  }
 `;
 
 const Txtbox = styled.div`

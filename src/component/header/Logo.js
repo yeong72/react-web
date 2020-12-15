@@ -18,6 +18,9 @@ const Container = styled.div`
   top:50%;
   transform:translateY(-50%);
   overflow:hidden;
+  @media screen and (max-width:350px){
+    left:-15%;
+  }
 `;
 
 export default Logo;

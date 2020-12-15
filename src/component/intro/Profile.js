@@ -35,6 +35,9 @@ const Container = styled.div`
     height:350px;
     padding-top:100px;
   }
+  @media screen and (max-width:400px){
+    height:260px;
+  }
 `;
 
 const Imgbox = styled.div`
@@ -54,6 +57,9 @@ const Imgbox = styled.div`
     top:5%;
     transform:none;
     height:260px;
+  }
+  @media screen and (max-width:400px){
+    height:150px;
   }
 `;
 
@@ -80,6 +86,9 @@ const Txtbox = styled.div`
     top:60%;
     float:none;
   }
+  @media screen and (max-width:400px){
+    display:none;
+  }
 `;
 
 const Title = styled.h1`
@@ -104,6 +113,7 @@ const Title = styled.h1`
     letter-spacing:0.2rem;
     line-height:1.6;
   }
+  
 `;
 
 

@@ -44,6 +44,9 @@ const Title = styled.h3`
 const Sub = styled.p`
   padding:1rem;
   color:#ddd;
+  @media screen and (max-width:400px){
+    font-size:0.8rem;
+  }
 `;
 
 export default Detailpage;

@@ -27,12 +27,18 @@ const Container = styled.div`
   height:auto;
   box-sizing:border-box;
   padding-top:50px;
+  @media screen and (max-width:400px){
+    padding-top:15px;
+  }
 `;
 
 const Txtbox = styled.div`
   width:100%;
   height:150px;
   text-align:center;
+  @media screen and (max-width:400px){
+    height:100px;
+  }
 `;
 
 const Title = styled.h2`
@@ -44,11 +50,17 @@ const Title = styled.h2`
   @media screen and (max-width:700px){
     font-size:2rem;
   }
+  @media screen and (max-width:400px){
+    font-size:1.8rem;
+  }
 `;
 
 const Dec = styled.p`
   color:#fff;
   padding:1rem;
+  @media screen and (max-width:400px){
+    font-size:0.8rem;
+  }
 `;
 
 const Skillbox = styled.div`

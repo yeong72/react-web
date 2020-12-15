@@ -15,6 +15,7 @@ body {
 ul,ol{list-style:none;}
 a{text-decoration:none; color:#303030;}
 .clear:after{content:''; display:block; clear:both;}
+.wrap{overflow:hidden;}
 
 /* header section */
 header{background:#202020; width:100%; height:80px; position:fixed; overflow:hidden; top:0; z-index:1;}
@@ -119,7 +120,49 @@ header img{width:150px; height:150px;}
 
   #portfolio .Contents img{width:330px; height:250px;}
 
-  .contact_con ul li{font-size:0.8rem;}
+  .contact_con ul li{font-size:0.6rem;}
+  .contact_con p{font-size:0.6rem;}
 }
 
+@media screen and (max-width:480px){
 
+  #portfolio .Contents img{width:300px; height:230px;}
+
+}
+
+@media screen and (max-width:400px){
+  header img{width:80px; height:80px;}
+
+  #portfolio .Contents img{width:260px; height:210px;}
+  .slick-dots{bottom:0;}
+  .slick-dots li{width:15px; height:15px;}
+  
+
+}
+
+@media screen and (max-width:350px){
+
+  #portfolio .Contents img{width:230px; height:190px;}
+
+  .contact_con ul li{font-size:0.5rem;}
+  .contact_con p{font-size:0.4rem;}
+
+  .skill_icon{font-size:3.5rem;}
+}
+
+@media screen and (max-width:350px){
+
+  #portfolio .Contents img{width:230px; height:190px;}
+
+  .contact_con ul li{font-size:0.5rem;}
+  .contact_con p{font-size:0.4rem;}
+
+  .skill_icon{font-size:3.5rem;}
+}
+
+@media screen and (max-width:300px){
+
+  header ul li{margin:0 10px;}
+  header ul li a{font-size:0.7rem;}
+
+}

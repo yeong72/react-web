@@ -108,17 +108,34 @@ const Txtbox = styled.div`
 
 const Title = styled.h2`
   padding:0.5rem;
-  
+  @media screen and (max-width:400px){
+    font-size:1.4rem;
+  }
+  @media screen and (max-width:300px){
+    font-size:1.2rem;
+  }
 `;
 
 const Sub = styled.h3`
-
+  @media screen and (max-width:400px){
+    font-size:1.1rem;
+  }
+  @media screen and (max-width:300px){
+    font-size:0.9rem;
+  }
 `;
 
 const Dec = styled.p`
   padding:0.5rem;
   font-size:0.8rem;
   font-weight:600;
+  @media screen and (max-width:400px){
+    padding:0.3rem;
+    font-size:0.7rem;
+  }
+  @media screen and (max-width:300px){
+    font-size:0.5rem;
+  }
 `;
 
 export default Skillcard;

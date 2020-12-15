@@ -41,7 +41,9 @@ const Txtbox = styled.div`
   width:100%;
   height:150px;
   text-align:center;
-  
+  @media screen and (max-width:400px){
+    height:100px;
+  }
 `;
 
 const Title = styled.h2`
@@ -53,11 +55,17 @@ const Title = styled.h2`
   @media screen and (max-width:700px){
     font-size:2rem;
   }
+  @media screen and (max-width:400px){
+    font-size:1.8rem;
+  }
 `;
 
 const Dec = styled.p`
   color:#fff;
   padding:1rem;
+  @media screen and (max-width:400px){
+    font-size:0.8rem;
+  }
 `;
 
 const CareerList = styled.div`
@@ -74,6 +82,9 @@ const Main = styled.h3`
   @media screen and (max-width:700px){
     font-size:1rem;
   }
+  @media screen and (max-width:400px){
+    font-size:0.9rem;
+  }
 `;
 
 const Keywords = styled.p`
@@ -81,6 +92,9 @@ const Keywords = styled.p`
   padding:0.5rem;
   @media screen and (max-width:700px){
     font-size:0.9rem;
+  }
+  @media screen and (max-width:400px){
+    font-size:0.7rem;
   }
 `;
 
@@ -91,6 +105,9 @@ const Sub = styled.p`
   :before{content:''; display:block; width:8px; height:1px; position:absolute; left:0; top:50%; background:#999;}
   @media screen and (max-width:700px){
     font-size:0.8rem;
+  }
+  @media screen and (max-width:400px){
+    font-size:0.5rem;
   }
 `;
 

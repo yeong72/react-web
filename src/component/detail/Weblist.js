@@ -178,6 +178,12 @@ const Imgbox = styled.div`
   @media screen and (max-width:500px){
     height:250px;
   }
+  @media screen and (max-width:400px){
+    height:200px;
+  }
+  @media screen and (max-width:300px){
+    height:165px;
+  }
 `;
 
 const Txtbox = styled.div`
@@ -210,7 +216,7 @@ const Dec = styled.p`
   @media screen and (max-width:700px){
     font-size:0.8rem;
   }
-  @media screen and (max-width:700px){
+  @media screen and (max-width:500px){
     font-size:0.7rem;
   }
 `;

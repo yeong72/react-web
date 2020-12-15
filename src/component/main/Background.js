@@ -102,6 +102,9 @@ const Container3 = styled.section`
   @media screen and (max-width:700px){
   height:720px;
   }
+  @media screen and (max-width:450px){
+  height:620px;
+  }
 `;
 
 const Container4 = styled.section`

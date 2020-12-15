@@ -9,7 +9,7 @@ class Portfoliopage extends Component {
         <Txtbox>
           <Title>Portfolio</Title>
           <Dec>
-            저의 포트폴리오들이며 좌ㆍ우로 슬라이드가 됩니다.<br />
+            좌ㆍ우 슬라이드<br />
           </Dec>
         </Txtbox>
         <Slidebox />
@@ -38,7 +38,13 @@ const Title = styled.h1`
   font-size:2rem;
   color:#eee;
   padding-bottom:20px;
-  
+  @media screen and (max-width:400px){
+    font-size:1.5rem;
+    margin-bottom:20px;
+    padding-bottom:0.3rem;
+    display:inline-block;
+    border-bottom:4px solid #feb633;
+  }
 `;
 
 const Dec = styled.p`
