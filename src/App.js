@@ -18,9 +18,10 @@ class App extends Component {
     return (
       <div className="wrap">
         <Header></Header>
-        <Route exact path="/" component={Mainpage} />
-        <Route path="/Intro" component={Intropage} />
-        <Route path="/Detail" component={Detailpage} />
+        {/* <Route exact path="/" component={Mainpage} /> */}
+        <Route path="/reactmain" exact component={Mainpage} />
+        <Route path="/reactmain/Intro" component={Intropage} />
+        <Route path="/reactmain/Detail" component={Detailpage} />
       </div>
     );
   }

@@ -7,14 +7,14 @@ class Menu extends Component {
 
   render() {
 
-    const names = ['Home', 'Intro', 'Detail', 'Contact'];
+    const names = ['Home', 'Intro', 'Detail'];
     // const listItems = names.map((name, index, link) => <li key={index}><a href="#">{name}</a></li>);
 
     return (
       <Container className="nav">
-        <li><NavLink exact to="/" activeClassName="nav_on">{names[0]}</NavLink></li>
-        <li><NavLink to="/Intro" activeClassName="nav_on">{names[1]}</NavLink></li>
-        <li><NavLink to="/Detail" activeClassName="nav_on">{names[2]}</NavLink></li>
+        <li><NavLink exact to="/reactmain" activeClassName="nav_on">{names[0]}</NavLink></li>
+        <li><NavLink to="/reactmain/Intro" activeClassName="nav_on">{names[1]}</NavLink></li>
+        <li><NavLink to="/reactmain/Detail" activeClassName="nav_on">{names[2]}</NavLink></li>
       </Container>
     )
   };
